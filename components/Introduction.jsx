@@ -40,7 +40,7 @@ export default function Introduction() {
         </h2>
         <div className="bg-blue-50 rounded-xl p-8 md:p-10 shadow-sm">
           <p className="text-lg md:text-xl text-text leading-relaxed">
-            The Digital CV Passport is an innovative online platform designed to reduce unemployment in Kuwait by making the hiring process transparent, fair, and faster. It serves as a verified digital identity that gathers education, certifications, and work experience all in one secure place. The platform automatically matches users with suitable job opportunities using AI, recommends personalized training programs to fill skill gaps, and connects them with employers — ensuring every candidate is job-ready.
+            Wasel is an innovative online platform designed to reduce unemployment in Kuwait by making the hiring process transparent, fair, and faster. It serves as a verified digital identity that gathers education, certifications, and work experience all in one secure place. The platform automatically matches users with suitable job opportunities using AI, recommends personalized training programs to fill skill gaps, and connects them with employers — ensuring every candidate is job-ready.
           </p>
         </div>
       </div>

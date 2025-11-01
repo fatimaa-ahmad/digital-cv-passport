@@ -45,7 +45,7 @@ export default function Navbar() {
               onClick={() => scrollToSection('hero')}
               className="text-primary font-bold text-xl hover:text-blue-700 transition-colors"
             >
-              Digital CV Passport
+              Wasel
             </button>
           </div>
           <div className="hidden md:block">

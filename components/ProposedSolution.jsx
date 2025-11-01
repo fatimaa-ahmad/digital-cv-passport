@@ -40,7 +40,7 @@ export default function ProposedSolution() {
         </h2>
         <div className="bg-blue-50 rounded-xl p-8 md:p-10 shadow-sm">
           <p className="text-lg md:text-xl text-text leading-relaxed">
-            The Digital CV Passport introduces an AI-powered system that matches users with suitable job opportunities and suggests personalized training programs to fill skill gaps. It acts as a verified digital identity combining skills, education, and certifications in one secure platform. By working with universities, private companies, and government entities, it ensures transparent and trustworthy hiring. Unlike generic job sites, this platform focuses on verified data, skill-based matching, and continuous training — aligned with Kuwait Vision 2035.
+            Wasel introduces an AI-powered system that matches users with suitable job opportunities and suggests personalized training programs to fill skill gaps. It acts as a verified digital identity combining skills, education, and certifications in one secure platform. By working with universities, private companies, and government entities, it ensures transparent and trustworthy hiring. Unlike generic job sites, this platform focuses on verified data, skill-based matching, and continuous training — aligned with Kuwait Vision 2035.
           </p>
         </div>
       </div>

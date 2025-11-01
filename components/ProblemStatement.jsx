@@ -40,7 +40,7 @@ export default function ProblemStatement() {
         </h2>
         <div className="bg-white rounded-xl p-8 md:p-10 shadow-sm">
           <p className="text-lg md:text-xl text-text leading-relaxed">
-            Kuwait faces a high youth unemployment rate due to its growing young population. The labor market struggles to absorb new graduates, and skill mismatches create further gaps. Employers face difficulty finding qualified candidates quickly and securely. The absence of a trusted platform that connects verified job-seekers with employers highlights a clear market need — one that The Digital CV Passport aims to fill.
+            Kuwait faces a high youth unemployment rate due to its growing young population. The labor market struggles to absorb new graduates, and skill mismatches create further gaps. Employers face difficulty finding qualified candidates quickly and securely. The absence of a trusted platform that connects verified job-seekers with employers highlights a clear market need — one that Wasel aims to fill.
           </p>
         </div>
       </div>

@@ -15,7 +15,7 @@ export default function HeroSection() {
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 animate-fade-in">
-          The Digital CV Passport
+          Wasel
         </h1>
         <p className="text-xl md:text-2xl text-text mb-10 max-w-3xl mx-auto animate-fade-in-delay">
           Empowering Kuwait's youth through verified digital identities and AI-driven employment solutions.
