@@ -32,14 +32,14 @@ export default function ProposedSolution() {
     <section
       id="solution"
       ref={sectionRef}
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-white"
+      className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-white"
     >
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-primary mb-8 text-center">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-6 sm:mb-8 text-center px-2 sm:px-0">
           Proposed Solution / Value Proposition
         </h2>
-        <div className="bg-blue-50 rounded-xl p-8 md:p-10 shadow-sm">
-          <p className="text-lg md:text-xl text-text leading-relaxed">
+        <div className="bg-blue-50 rounded-xl p-6 sm:p-8 md:p-10 shadow-sm">
+          <p className="text-base sm:text-lg md:text-xl text-text leading-relaxed">
             Wasel introduces an AI-powered system that matches users with suitable job opportunities and suggests personalized training programs to fill skill gaps. It acts as a verified digital identity combining skills, education, and certifications in one secure platform. By working with universities, private companies, and government entities, it ensures transparent and trustworthy hiring. Unlike generic job sites, this platform focuses on verified data, skill-based matching, and continuous training — aligned with Kuwait Vision 2035.
           </p>
         </div>

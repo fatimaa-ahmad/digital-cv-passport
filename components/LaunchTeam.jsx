@@ -51,22 +51,22 @@ export default function LaunchTeam() {
     <section
       id="team"
       ref={sectionRef}
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-white"
+      className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-white"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-primary mb-12 text-center">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-8 sm:mb-10 md:mb-12 text-center">
           Launch Team
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="bg-blue-50 rounded-xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="bg-blue-50 rounded-xl p-5 sm:p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow duration-300"
             >
-              <h3 className="text-2xl font-bold text-primary mb-4">
+              <h3 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">
                 {member.name}
               </h3>
-              <p className="text-base md:text-lg text-text leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg text-text leading-relaxed">
                 {member.description}
               </p>
             </div>

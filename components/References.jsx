@@ -37,18 +37,18 @@ export default function References() {
     <section
       id="references"
       ref={sectionRef}
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-white"
+      className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-white"
     >
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-primary mb-8 text-center">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-6 sm:mb-8 text-center">
           References
         </h2>
-        <div className="bg-blue-50 rounded-xl p-8 md:p-10 shadow-sm">
-          <ul className="space-y-4">
+        <div className="bg-blue-50 rounded-xl p-6 sm:p-8 md:p-10 shadow-sm">
+          <ul className="space-y-3 sm:space-y-4">
             {references.map((ref, index) => (
               <li
                 key={index}
-                className="text-base md:text-lg text-text leading-relaxed"
+                className="text-sm sm:text-base md:text-lg text-text leading-relaxed"
               >
                 {ref}
               </li>

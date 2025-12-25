@@ -49,12 +49,12 @@ export default function Navbar() {
             </button>
           </div>
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-baseline space-x-2 lg:space-x-4">
               {navLinks.map((link) => (
                 <button
                   key={link.section}
                   onClick={() => scrollToSection(link.section)}
-                  className="text-text hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  className="text-text hover:text-primary px-2 lg:px-3 py-2 rounded-md text-xs lg:text-sm font-medium transition-colors touch-manipulation"
                 >
                   {link.label}
                 </button>
@@ -64,7 +64,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-text hover:text-primary p-2"
+              className="text-text hover:text-primary p-2 touch-manipulation min-w-[44px] min-h-[44px] flex items-center justify-center"
               aria-label="Toggle menu"
             >
               <svg
@@ -92,7 +92,7 @@ export default function Navbar() {
                 <button
                   key={link.section}
                   onClick={() => scrollToSection(link.section)}
-                  className="block w-full text-left text-text hover:text-primary hover:bg-blue-50 px-3 py-2 rounded-md text-base font-medium transition-colors"
+                  className="block w-full text-left text-text hover:text-primary hover:bg-blue-50 active:bg-blue-100 px-3 py-3 rounded-md text-base font-medium transition-colors touch-manipulation min-h-[44px]"
                 >
                   {link.label}
                 </button>

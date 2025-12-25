@@ -8,6 +8,7 @@ import ProposedSolution from '../components/ProposedSolution'
 import BusinessModelCanvas from '../components/BusinessModelCanvas'
 import References from '../components/References'
 import Footer from '../components/Footer'
+import ChatbotButton from '../components/ChatbotButton'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <BusinessModelCanvas />
       <References />
       <Footer />
+      <ChatbotButton />
     </main>
   )
 }

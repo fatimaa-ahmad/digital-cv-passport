@@ -32,14 +32,14 @@ export default function ProblemStatement() {
     <section
       id="problem"
       ref={sectionRef}
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
+      className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
     >
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-primary mb-8 text-center">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-6 sm:mb-8 text-center px-2 sm:px-0">
           Problem Statement / Market Gap
         </h2>
-        <div className="bg-white rounded-xl p-8 md:p-10 shadow-sm">
-          <p className="text-lg md:text-xl text-text leading-relaxed">
+        <div className="bg-white rounded-xl p-6 sm:p-8 md:p-10 shadow-sm">
+          <p className="text-base sm:text-lg md:text-xl text-text leading-relaxed">
             Kuwait faces a high youth unemployment rate due to its growing young population. The labor market struggles to absorb new graduates, and skill mismatches create further gaps. Employers face difficulty finding qualified candidates quickly and securely. The absence of a trusted platform that connects verified job-seekers with employers highlights a clear market need — one that Wasel aims to fill.
           </p>
         </div>
